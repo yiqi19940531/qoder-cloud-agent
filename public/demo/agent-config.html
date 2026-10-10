@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Qoder Cloud Agent 配置核验摘要</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f8f6;color:#193c48;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans SC",sans-serif}main{max-width:1160px;margin:0 auto;padding:42px 48px}.eyebrow{font-size:13px;color:#438a78;letter-spacing:.13em;font-weight:700}h1{font-size:36px;letter-spacing:-.04em;margin:8px 0 8px}p{color:#6d8a91;font-size:14px;margin:0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:29px}.card{background:white;border:1px solid #dceae4;border-radius:15px;padding:25px;box-shadow:0 10px 30px #1c60500b}.card h2{font-size:18px;margin:0 0 15px}.big{font-size:23px;font-weight:750;color:#174f63}.small{font-size:13px;color:#6c8890;line-height:1.75}.row{display:flex;justify-content:space-between;gap:18px;padding:9px 0;border-top:1px solid #eef2f0;font-size:13px}.row:first-of-type{border-top:0}.row strong{color:#2b6470}.chip{display:inline-block;border-radius:100px;padding:5px 9px;background:#e7f5eb;color:#3b8560;font-size:12px;font-weight:700}.chip.ask{background:#fff2df;color:#9f7333}.url{font-family:ui-monospace,monospace;font-size:12px;color:#245d73;overflow-wrap:anywhere;background:#f5f9f8;border-radius:8px;padding:10px;margin:11px 0}.flow{margin-top:18px;background:#174e62;color:white;border-radius:15px;padding:21px 25px;font-size:18px;font-weight:700;text-align:center}.flow span{color:#9ee1c9;padding:0 12px}.foot{font-size:11px;color:#8da6a9;margin-top:14px}.accent{color:#176f7d}@media(max-width:760px){main{padding:22px}.grid{grid-template-columns:1fr}h1{font-size:26px}.flow{font-size:13px}}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">QODER CLOUD AGENT · API VERIFIED SNAPSHOT</div>
+<h1>Ecommerce Research Agent</h1>
+<p>远端配置核验摘要 · 2026-10-10 · 仅展示公开配置字段，不展示凭证</p>
+<div class="grid">
+  <section class="card"><h2>Agent 与模型</h2><div class="big">Qwen3.8-Max</div><div class="small">Agent version 3 · Cloud Environment: ecommerce-research-runtime</div><div class="row"><span>人机交互</span><strong>ask_user</strong></div><div class="row"><span>结构化结果</span><strong>publish_results</strong></div><div class="row"><span>历史数据复用</span><strong>load_saved_data</strong></div></section>
+  <section class="card"><h2>Apify 远程 MCP</h2><div class="chip">Vault 凭证已配置</div><div class="url">https://mcp.apify.com?tools=search-actors,fetch-actor-details,call-actor</div><div class="row"><span>Actor 发现 / 详情</span><strong>允许</strong></div><div class="row"><span>call-actor 付费运行</span><span class="chip ask">需确认 · 单任务 $2 上限</span></div><div class="row"><span>Run / Dataset 读取</span><strong>允许</strong></div></section>
+</div>
+<div class="flow">本地 Web <span>→</span> Qoder Session <span>→</span> Apify MCP <span>→</span> Actor</div>
+<div class="foot">此画面由 Qoder Agent API 返回的配置字段制作，用于演示；并非 Qoder 控制台截图。Token、Vault 密钥和本机数据库均未包含在演示文件中。</div>
+</main></body></html>
